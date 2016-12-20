@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3F5365591E08791300E9F0EF /* Serenity.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F5365581E08791300E9F0EF /* Serenity.wav */; };
 		3F65877C1E08742A00B33D4B /* beat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F65877B1E08742A00B33D4B /* beat.wav */; };
+		3FD4D3161E09777F001D5818 /* JingleBellsTrap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FD4D3151E09777F001D5818 /* JingleBellsTrap.mp3 */; };
 		78D63E2E1D0FCDA300C53875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D63E2D1D0FCDA300C53875 /* AppDelegate.swift */; };
 		78D63E301D0FCDA300C53875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D63E2F1D0FCDA300C53875 /* ViewController.swift */; };
 		78D63E321D0FCDA300C53875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D63E311D0FCDA300C53875 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		3F5365581E08791300E9F0EF /* Serenity.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Serenity.wav; sourceTree = "<group>"; };
 		3F65877B1E08742A00B33D4B /* beat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beat.wav; sourceTree = "<group>"; };
+		3FD4D3151E09777F001D5818 /* JingleBellsTrap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JingleBellsTrap.mp3; sourceTree = "<group>"; };
 		78D63E2A1D0FCDA300C53875 /* MicrophoneAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrophoneAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D63E2D1D0FCDA300C53875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78D63E2F1D0FCDA300C53875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		78D63E2C1D0FCDA300C53875 /* MicrophoneAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				3FD4D3151E09777F001D5818 /* JingleBellsTrap.mp3 */,
 				3F5365581E08791300E9F0EF /* Serenity.wav */,
 				3F65877B1E08742A00B33D4B /* beat.wav */,
 				78D63E2D1D0FCDA300C53875 /* AppDelegate.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD4D3161E09777F001D5818 /* JingleBellsTrap.mp3 in Resources */,
 				3F65877C1E08742A00B33D4B /* beat.wav in Resources */,
 				78D63E321D0FCDA300C53875 /* Assets.xcassets in Resources */,
 				3F5365591E08791300E9F0EF /* Serenity.wav in Resources */,

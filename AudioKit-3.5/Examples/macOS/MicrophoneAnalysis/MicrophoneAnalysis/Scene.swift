@@ -83,7 +83,7 @@ class Scene : SKScene {
         
         // Try to get a reference to the audio file
         do {
-            audioFile = try AKAudioFile(readFileName: "Serenity.wav", baseDir: .resources)
+            audioFile = try AKAudioFile(readFileName: "JingleBellsTrap.mp3", baseDir: .resources)
         } catch {
             print("Could not open audio file")
         }
@@ -201,14 +201,14 @@ class Scene : SKScene {
         addChild(anotherCircle)
         
         // Bar One Exploration
-        let bar1Dimensions = CGRect(x:120, y: 0, width: 15, height: (tracker.amplitude * 150))
+        let bar1Dimensions = CGRect(x:120, y: 0, width: 15, height: (tracker.amplitude * 100))
         bar1 = SKShapeNode(rect: bar1Dimensions)
         bar1.lineWidth = 20
         bar1.strokeColor = SKColor.orange
         addChild(bar1)
         
         // Bar Two Exploration
-        let bar2Dimensions = CGRect(x:170, y: 0, width: 15, height: (tracker.frequency / 500))
+        let bar2Dimensions = CGRect(x:170, y: 0, width: 15, height: (tracker.frequency / 10))
         bar2 = SKShapeNode(rect: bar2Dimensions)
         bar2.lineWidth = 20
         bar2.strokeColor = SKColor.blue
@@ -222,7 +222,7 @@ class Scene : SKScene {
         addChild(bar3)
         
         // Bar Four Exploration
-        let bar4Dimensions = CGRect(x:320, y: 0, width: 15, height: (tracker.amplitude * 150))
+        let bar4Dimensions = CGRect(x:320, y: 0, width: 15, height: (tracker.frequency / 5))
         bar4 = SKShapeNode(rect: bar4Dimensions)
         bar4.lineWidth = 20
         bar4.strokeColor = SKColor.green
@@ -230,7 +230,7 @@ class Scene : SKScene {
         
         // Plot a line based on the frequency and the current frame
         if frameCount < Int(self.size.width) {  // Don't add nodes to the scene once we get past the right edge
-            let shapeLine = SKShapeNode(rect: CGRect(x: frameCount, y: 0, width: 1, height: Int(tracker.amplitude * 500)))
+            let shapeLine = SKShapeNode(rect: CGRect(x: frameCount, y: 0, width: 1, height: Int(tracker.amplitude * 200)))
             shapeLine.lineWidth = 1
             shapeLine.zPosition = 5
             shapeLine.strokeColor = NSColor(hue: 0, saturation: 0, brightness: 1.0, alpha: 0.2)
